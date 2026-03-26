@@ -1,2 +1,12 @@
-*.png
-pictures/
+*.png		# ignore all png files
+pictures/cakes	# ignore only the cakes subfolder
+!final.png	# except final.png (don't ignore)
+pictures/*	# ignore all subfolder in pictures
+!pictures/pie/	# except subfolder called pie
+
+
+pictures/data/location/gps/*.dat	# ignore all .dat files in the folder
+**/*.csv				# ignore all .csv files in different folders and subfolders
+
+log_*	# ignore all files that are with precursor log_
+ 
